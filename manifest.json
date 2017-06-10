@@ -1,0 +1,17 @@
+{
+  "name": "Google Maps select and search",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "Select an address, right click and search it on Google Maps directly",
+  "permissions": [
+    "contextMenus"
+  ],
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "background": {
+    "scripts": ["script.js"]
+  }
+}
