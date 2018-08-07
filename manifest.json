@@ -1,6 +1,6 @@
 {
   "name": "Google Maps select and search",
-  "version": "1.0",
+  "version": "1.1",
   "manifest_version": 2,
   "description": "Select an address, right click and search it on Google Maps directly",
   "permissions": [
