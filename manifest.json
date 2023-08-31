@@ -1,17 +1,24 @@
 {
 	"name": "Google Maps select and search",
-	"version": "1.3",
-	"manifest_version": 2,
+	"version": "2.0",
+	"manifest_version": 3,
 	"description": "Select an address, right click and search it on Google Maps directly. Directly find an address found on a website with 2 clicks.",
 	"permissions": [
 		"contextMenus"
 	],
-	"icons": {
-		"16": "icon16.png",
-		"48": "icon48.png",
-		"128": "icon128.png"
-	},
+	"action": {
+		"default_icon": {
+		  "16": "icons/icon16.png",
+		  "48": "icons/icon48.png",
+		  "128": "icons/icon128.png"
+		}
+	  },
 	"background": {
-		"scripts": ["script.js"]
+		"service_worker": "script.js"
+	},
+	"icons": {
+	  "16": "icons/icon16.png",
+	  "48": "icons/icon48.png",
+	  "128": "icons/icon128.png"
 	}
 }
